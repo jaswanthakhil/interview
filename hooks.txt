@@ -1,0 +1,18 @@
+00:00 Overview
+00:24 Hooks Introduction
+01:10 Rules of Hooks
+01:50 Basic Hooks
+02:00 use State (along with Object Destructuring, Array Destructuring)
+17:00 useEffect
+26:06 customHooks
+30:20 useContext
+39:35 useReducer
+47:40 useMemo
+58:50 useCallback
+01:03:18 useRef
+01:05:45 useImperativeHandle
+01:12:35 useLayoutEffect
+01:16:14 useDebugValue
+01:19:52 Summary
+01:20:50 Next video intro
+01:21:10 Like,Share,Comment and Don't forget to Subscribe

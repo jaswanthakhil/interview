@@ -1,0 +1,169 @@
+1. There are two types of data types 
+	.Primative 
+	.non primative
+
+primative: Boolean, string , numbers, null and un defined, symbols(Es6 features)
+non primatives: Arrays and objects
+
+2. hoisting is behaviour that the variable and functions should be declard in the top of thescope the scope can be local or global 
+
+if try to access the variable before assigning the variable it throws an array 
+console.log(a)refference error
+console.log(b) undefined
+
+if let a = 10
+
+var b= 10
+
+ex : 
+"use strict"
+x= 10;
+console.log(x)
+var x;
+it throws an error as x is not decared.
+
+3.debugger is used to report the faults of user and after using the debugger the compiler stop running the code at that line itself and stops exceuting
+
+4.== check the value and where as === check the vaule and type
+
+5.var is a global variable and let is a functional variabe.
+
+var a = 10,
+var a= 20
+
+let i = 10,
+i=30,
+
+var can be declared multiple times and we can reassign the value by declare the variable once again'
+
+let cannot be decaled once again but we can reassign the variable let is a block scope it mean it can called with in the {}
+
+6.Implicte type of coerision is like converting one type of data type to the other type . and it differs with the operands we use 
+
+String coersion : let x= 5 ; let y="3" then x+y= 53 here one is string and the other is number so first it converts the number to string and the performs the operation
+x-y= 2 in this y is string type it then converts the y to number and then it operates retuens 2
+
+boolean coersion:truthy values are converted to true falsy value are converted to false
+all values except 0,-0,"",false,null,undefined and NAN are truthy value
+
+logical operators ,equality coersion and == if a= 12 and b="12" it return true as it converts both into single type and a===b returns false as compares both type and valve
+
+7. Java script is a dynamiclly typed language and it means the varible type is checked in run time and coming to statically type the variable type is checked in compile time 
+in dynamically type the variable type can change 
+
+8.NAN is the error occured when the value is not a number but if we try to use that value in some calculation.to check the value is NAN or not we use isNAN()
+
+9.passed by value : for primative data types 
+
+let a= 10 and 
+let b= a then the output of b =10 but bot the times the compiler create a memmory space for both a and b instead of calling the same a
+
+passed by reference : for non primatives
+
+let obj1= {name: "akhil",age:18}
+let obj2=obj1
+
+in this example the compilar will not create a new memory space for obj2 but it saves the location of the obj and calls it 
+
+10
+when the js file is called the function directly executed as soon it is defined 
+
+(function(){return do someything}),()
+
+11
+strict mode is intrdoced in es5 it used make the debugging process simple it makes the programmer to make less error code 
+
+	. dupicate arguments are not allowed 
+       . the keywords and function names can not passed as arguments
+	."use strict" should be used in the top of script
+	.it will not allow declaring the variable global
+12.
+higher order function are treated as frist call citiziens by javascript
+
+the function that return as function either by taking them as arguments or by keeping function inside a function
+
+ex: function hof(fun()){
+fun()}
+function hof(funtion(){return console.log("hof")})
+
+or 
+function hof (){
+return (function(){
+console.log("hof")})
+}
+const a = function hof ()
+x()
+
+13.
+
+this is keyword used to refer to object of that function of it property
+
+function hello(){
+console.log(this)
+}
+
+hello() output is global variable as the this is declared globally
+
+const a = { name:"akhil",getfun:function hello(){
+console.log(this.name)}}
+const b = a.getfun;
+b() output is akhil as the this keyword refers to object of that functions property
+ 
+ 14. self invoking function is function called by itself as soon as it is declared 
+(function(){
+    //Bunch of code...
+})();
+15 call(),bind(),apply()
+16 exec() search for the string in specific pattern and return the pattern itself
+test() search for thr string of specific pattern and return boolean value
+17 currying is concept that function with argument n is converted into n number of function
+
+function try(a){
+	return function (b){
+		return a+b
+	}
+}
+ try(3)(4) is 12
+
+ this can be also written as 
+ function try (a,b){
+	return a+b
+ }
+ try(3,4) is 12
+
+ 18 exterNAL javascript code is the code written in separate js and can use that js in html 
+ 19
+ global scope functional scope and block scope
+
+ 20
+ the ablility of a function to remember the variable and function in outer scope is called scope
+
+ 21 advantages of js
+ it provides both clinet side rendering and server side rendering
+ it is easy to learn 
+ web pages are having more functionally as js is implemented
+ user friendly
+ 22
+ object prototype
+ prototype is a blue print of the object with property and method
+
+ const arr= []
+
+ arr.push(2)
+
+ console.log(arr)=>[2]
+
+ 23 callback are nothing but a function is excecuted only if the other function is excecuted 
+
+ function divideByHalf(sum)
+ { console.log(Math.floor(sum / 2)); }
+ function multiplyBy2(sum){ console.log(sum * 2); }
+ function operationOnSum(num1,num2,operation)
+ { var sum = num1 + num2; 
+ operation(sum); }
+ operationOnSum(3, 3, divideByHalf); // Outputs 3 
+ operationOnSum(5, 5, multiplyBy2); // Outputs 20
+
+
+
+

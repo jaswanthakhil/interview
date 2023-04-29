@@ -1,0 +1,18 @@
+00:00 Overview
+00:29 Prerequisites and Project setup
+01:42 Installing bootstrap 5
+02:45 Routing Introduction
+10:44 Routers
+15:15 Route Matchers
+32:36 Route Navigation
+37:07 URL Parameters and Search Query Parameters routing
+44:46 Routing with Hooks
+52:59 Authentication routing
+01:08:52 Nested routing
+01:13:49 404 Not Found!
+01:14:38 Sidebar routing
+01:26:34 Lazy Loading/Code splitting for components
+01:33:30 Summary
+01:34:32 Exercise and References
+01:35:56 Next video intro
+01:36:15 Like,Share,Comment and Don't forget to Subscribe

@@ -1,0 +1,10 @@
+Can you explain the purpose of the React.Component class and how it is used?
+How does the virtual DOM work in React and what are the benefits of using it?
+Can you describe the lifecycle methods of a React component and when each one is typically called?
+What is the purpose of the shouldComponentUpdate method and how is it used?
+How do you handle forms and form validation in React?
+Can you discuss the benefits and tradeoffs of using Redux or another state management library in a React application?
+Can you describe how you would optimize a React application for performance?
+Have you worked with React hooks and can you provide an example of a hook you have used in a project?
+How do you handle routing in a React application?
+Can you discuss a time when you encountered a problem while working with React and how you solved it?
